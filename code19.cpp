@@ -1,0 +1,9 @@
+#include <stdio.h> 
+int main() 
+{
+int x,y; 
+printf ("Enter x and y"); 
+scanf ("%d,%d", &x,&y); 
+x>y ? printf("x is larger"): printf("y is larger"); 
+return 0; 
+} 
